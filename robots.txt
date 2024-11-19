@@ -1,0 +1,4 @@
+Host: trubomer.github.io
+Sitemap: https://trubomer.github.io/sitemap.xml
+User-Agent: *
+Allow: /
