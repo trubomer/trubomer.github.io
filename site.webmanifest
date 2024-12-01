@@ -168,5 +168,6 @@
   "scope_extensions": [
     {"origin": "*.trubomer.github.io"},
     {"origin": "pwa.trubomer.ru"}
-  ]
+  ],
+  "handle_links": "preferred"
 }
