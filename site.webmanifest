@@ -164,5 +164,9 @@
       "url": "/web?s=%s"
     }
   ],
-  "prefer_related_applications": true
+  "prefer_related_applications": true,
+  "scope_extensions": [
+    {"origin": "*.trubomer.github.io"},
+    {"origin": "pwa.trubomer.ru"}
+  ]
 }
