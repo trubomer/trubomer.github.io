@@ -136,13 +136,20 @@
     }
   ],
   "share_target": {
-    "method": "GET",
-    "action": "/get-action",
+    "method": "POST",
+    "action": "/post-action",
     "params": {
       "title": "action_title",
       "text": "action_text",
-      "url": "shared_url_field"
-    }
+      "url": "shared_url_field",
+      "files": [
+        {
+          "name": "shared_file",
+          "accept": ["text/csv", ".csv"]
+        }
+      ]
+    },
+    "enctype": "multipart/form-data"
   },
   "edge_side_panel": {
     "preferred_width": 376
