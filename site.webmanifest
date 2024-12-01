@@ -163,5 +163,6 @@
       "protocol": "web+pwa",
       "url": "/web?s=%s"
     }
-  ]
+  ],
+  "prefer_related_applications": true
 }
